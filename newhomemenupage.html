@@ -3,40 +3,23 @@
     <head>
         <title>Phone Skin Gallery</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-
-body{
-    margin: 10px ;
+<style>
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+  align-items: stretch;
+  }
+.grid img {
+  max-width: 100%;
 }
-.wrapper{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
-    grid-gap: 5px;
-}
-img{
-    width: 100%;
-}
-.box{
-    padding: 10px;
-}
-        </style>
-    </head>
-    <body>
-<div class="wrapper">
-<div class='box'><img src="https://imgur.com/KRdKc5z.jpg"></div>
-<div class='box'><img src="https://imgur.com/KRdKc5z.jpg"></div>
-<div class='box'><img src="https://imgur.com/KRdKc5z.jpg"></div>
-<div class='box'><img src="https://imgur.com/KRdKc5z.jpg"></div>
-<div class='box'><img src="https://imgur.com/KRdKc5z.jpg"></div>
-<div class='box'><img src="https://imgur.com/KRdKc5z.jpg"></div>
-<div class='box'><img src="https://imgur.com/KRdKc5z.jpg"></div>
-<div class='box'><img src="https://imgur.com/KRdKc5z.jpg"></div>
-<div class='box'><img src="https://imgur.com/KRdKc5z.jpg"></div>
-<div class='box'><img src="https://imgur.com/KRdKc5z.jpg"></div>
-<div class='box'><img src="https://imgur.com/KRdKc5z.jpg"></div>
-<div class='box'><img src="https://imgur.com/KRdKc5z.jpg"></div>
-
-</div>
-
-    </body>
-</html>
+</style>
+<main class="grid">
+  <a href="https://imgur.com/KRdKc5z.jpg"><img src="https://imgur.com/KRdKc5z.jpg" alt="Sample photo"></a>
+  <a href="https://imgur.com/KRdKc5z.jpg"><img src="https://imgur.com/KRdKc5z.jpg" alt="Sample photo"></a>
+    <a href="https://imgur.com/KRdKc5z.jpg"><img src="https://imgur.com/KRdKc5z.jpg" alt="Sample photo"></a>
+    <a href="https://imgur.com/KRdKc5z.jpg"><img src="https://imgur.com/KRdKc5z.jpg" alt="Sample photo"></a>
+    <a href="https://imgur.com/KRdKc5z.jpg"><img src="https://imgur.com/KRdKc5z.jpg" alt="Sample photo"></a>
+    <a href="https://imgur.com/KRdKc5z.jpg"><img src="https://imgur.com/KRdKc5z.jpg" alt="Sample photo"></a>
+  
+</main>
