@@ -1,57 +1,262 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Phone Skin Gallery</title>
-<style>
-
-div.gallery  {
-  margin: 10px;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phone Skin Gallery</title>
+  <style>
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  background:white;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+}
+body {
+  background-color: #dbe2e9;
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+section {
+  width: 100%;
+  min-height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: white;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header h1 {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  color: #3a3a3a;
+}
+form {
+  margin-top: 30px;
+  width: 80%;
+  max-width: 300px;
+  position: relative;
+}
+input {
+  border: none;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.479);
+  font-size: 20px;
+  width: 100%;
+  outline: none;
+  color: gray;
+  background-color: transparent;
+}
+input::placeholder {
+  opacity: 0.5;
+  color: gray;
+  font-family: "Montserrat";
+}
+form ion-icon {
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+  opacity: 0.5;
+  color: gray;
+}
+.gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 50px;
+  grid-gap: 20px;
+}
+.item {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: 0.3s ease box-shadow;
 }
 
-div.gallery img{
-  margin: auto;
-align-content: center;
+
+.item:nth-last-child(1) {
+  margin-bottom: 0;
 }
 
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1160px;
+    padding: 100px;
+  }
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header h1 {
+    font-size: 50px;
+  }
+  .header input {
+    font-size: 24px;
+  }
+  .header ion-icon {
+    font-size: 24px;
+  }
+  .gallery {
+    grid-gap: 30px;
+  }
+  .banner{
+  margin-bottom: -15px;
+}
+}
+    
 .banner{
-  padding: 0 6px;
+  margin-bottom: -15px;
 }
 
-</style>
+
+  </style>
 </head>
+
 <body>
+  <section>
+    <div class="container">
+      <div class="header">
+        <h1 class="logo">Phone Skin Gallery</h1>
+      </div>
+      
+        <div class="banner">
+          <img class="alignnone size-medium" src="https://imgur.com/nAGhA2R.jpg" width="100%"/>
+          </div>
+     
+      <div class="gallery">
+        <div class="item">
+          <a href="../more/abstract.html">
+            <img src="https://imgur.com/KRdKc5z.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
+        
+        <div class="item">
+          <a href="../more/animal.html">
+            <img src="https://imgur.com/EbkB8rM.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
 
-<div class="banner">
- <img class="alignnone size-medium" src="https://imgur.com/nAGhA2R.jpg" width="100%"/>
- </div>
- 
-<div class="gallery">
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/abstract.html"><img src="https://imgur.com/hq6rbwk.jpg "   width="100%"  alt="Phone Skin Diy"></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/animal.html"><img src="https://imgur.com/BCiy42F.jpg"   width="100%" alt="Phone Skin Diy" ></a>                                                  
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/anime.html"><img src="https://imgur.com/IdA39yO.jpg"  width="100%" alt="Phone Skin Diy" </a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/cartoon.html"><img src="https://imgur.com/CmT7DfX.jpg"  width="100%"alt="Phone Skin Diy"></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/character.html"><img src="https://imgur.com/FKvjkqp.jpg"  width="100%" alt="Phone Skin Diy"></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/chinastyle.html"><img src="https://imgur.com/pJSw01c.jpg"  width="100%" alt="Phone Skin Diy"></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/couple.html"><img src="https://imgur.com/Fhporht.jpg"  width="100%" alt="Phone Skin Diy"></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/disney.html"><img src="https://imgur.com/7N0NLoM.jpg"  width="100%" alt="Phone Skin Diy"></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/menu/fantasy.html"><img src="https://imgur.com/FwCNjkr.jpg"  width="100%" alt="Phone Skin Diy"></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/festival.html"><img src="https://imgur.com/Xcp07hX.jpg"  width="100%" alt="Phone Skin Diy" ></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/game.html"><img src="https://imgur.com/nT90sLu.jpg"  width="100%" alt="Phone Skin Diy"></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/landscape.html"><img src="https://imgur.com/RzhyWb0.jpg"  width="100%" alt="Phone Skin Diy" ></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/logo.html"><img src="https://imgur.com/OeMbr83.jpg"  width="100%" alt="Phone Skin Diy"></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/movie.html"><img src="https://imgur.com/nXinwi8.jpg"  width="100%" alt="Phone Skin Diy"></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/sport.html"><img src="https://imgur.com/emYo4LG.jpg"  width="100%" alt="Phone Skin Diy" ></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/texture.html"><img src="https://imgur.com/Fqqe8Q2.jpg"  width="100%" alt="Phone Skin Diy" ></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/trendy.html"><img src="https://imgur.com/NVdEU8o.png"  width="100%" alt="Phone Skin Diy" ></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/vehicle.html"><img src="https://imgur.com/GRGKbL3.jpg"  width="100%"alt="Phone Skin Diy"></a>
-   <a href="https://henrycreative888.github.io/phoneskindiy/more/other.html"><img src="https://imgur.com/kJ2swhj.jpg"  width="100%" alt="Phone Skin Diy" ></a>
-</div>
+        <div class="item">
+          <a href="../more/anime.html">
+            <img src="https://imgur.com/ZC3o8pR.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="../more/cartoon.html">
+            <img src="https://imgur.com/RCag6tK.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="../more/character.html">
+            <img src="https://imgur.com/3pI7IZq.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="../more/chinastylehtml">
+            <img src="https://imgur.com/ILV50Tm.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="../more/couple.html">
+            <img src="https://imgur.com/7xlxVYG.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="../more/disney.html">
+            <img src="https://i.ibb.co/zhV95BK/17.png" alt="Phone Skin Gallery">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="../more/fantasy.html">
+            <img src="https://imgur.com/kRrt4uH.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="../more/festival.html">
+            <img src="https://imgur.com/An28nwk.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="../more/game.html">
+            <img src="https://imgur.com/IvZaZex.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="../more/landscape.html">
+            <img src="https://imgur.com/LA1JhnK.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="../more/logo.html">
+            <img src="https://imgur.com/ukbsQJp.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="../more/sport.html">
+            <img src="https://imgur.com/6AV4MUK.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="../more/texture.html">
+            <img src="https://imgur.com/FCNgs5d.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="../more/trendy.html">
+            <img src="https://i.ibb.co/JC5V9HT/18.png" alt="Phone Skin Gallery">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="../more/vehicle.html">
+            <img src="https://imgur.com/ARDN1Ra.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="../more/other.html">
+            <img src="https://imgur.com/Sm62oh5.jpg" alt="Phone Skin Gallery">
+          </a>
+        </div>
 
 
 
-<div class="clearfix"></div>
-
-
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
