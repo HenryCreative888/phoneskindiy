@@ -1,4 +1,4 @@
-[txt]
-[name]Henry[name]
-[code]18[code]
-[txt]
+【txt】
+【name】Henry【name】
+【code】18【code】
+【txt】
