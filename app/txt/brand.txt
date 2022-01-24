@@ -1,6 +1,9 @@
 【Logo】https://henrycreative888.github.io/phoneskindiy/app/logo/apple.jpg【Logo】
 【Brand】APPLE【Brand】
 
+【Logo】https://henrycreative888.github.io/phoneskindiy/app/logo/blackberry.jpg【Logo】
+【Brand】BLACKBERRY【Brand】
+
 【Logo】https://henrycreative888.github.io/phoneskindiy/app/logo/google.jpg【Logo】
 【Brand】GOOGLE【Brand】
 
@@ -30,6 +33,9 @@
 
 【Logo】https://henrycreative888.github.io/phoneskindiy/app/logo/samsung.jpg【Logo】
 【Brand】SAMSUNG【Brand】
+
+【Logo】https://henrycreative888.github.io/phoneskindiy/app/logo/sony.jpg【Logo】
+【Brand】SONY【Brand】
 
 【Logo】https://henrycreative888.github.io/phoneskindiy/app/logo/vivo.jpg【Logo】
 【Brand】VIVO【Brand】
