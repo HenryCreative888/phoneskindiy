@@ -1,17 +1,17 @@
 【name】Henry【name】
 【code】BE5A4037D3B92E2D4F16E8B093E520E6A6C560FE7604DF【code】
 【headphoto】https://henrycreative888.github.io/phoneskindiy/app/headphoto/1.jpg【headphoto】
-【permision】老板【permision】
+【permision】ADMIN【permision】
 【date】2022-01-08【date】
 
 【name】Alice【name】
 【code】F9【code】
 【headphoto】https://henrycreative888.github.io/phoneskindiy/app/headphoto/1.jpg【headphoto】
-【permision】老板【permision】
+【permision】ADMIN【permision】
 【date】2022-01-08【date】
 
 【name】Louis【name】
 【code】F8【code】
 【headphoto】https://henrycreative888.github.io/phoneskindiy/app/headphoto/1.jpg【headphoto】
-【permision】老板【permision】
+【permision】ADMIN【permision】
 【date】2022-01-08【date】
